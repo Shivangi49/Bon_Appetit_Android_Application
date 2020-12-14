@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraint"
+    tools:context=".Admin.AdminActivity">
+
+  <Button
+      android:id="@+id/AddCategory"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/edittext_linear_corners"
+      android:elevation="12dp"
+      android:padding="16dp"
+      android:text="Add Category"
+      android:textAllCaps="false"
+      android:textColor="@color/colorPrimaryDark"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.536"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.097" />
+
+
+  <Button
+      android:id="@+id/vpayment"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/edittext_linear_corners"
+      android:elevation="12dp"
+      android:padding="16dp"
+      android:text="View Payment"
+      android:textAllCaps="false"
+      android:textColor="@color/colorPrimaryDark"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.536"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.865" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="Food Management"
+      android:textAlignment="center"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.315"
+      tools:layout_editor_absoluteX="0dp" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:text="View User Input"
+      android:textAlignment="center"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.633"
+      tools:layout_editor_absoluteX="0dp" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="Category Management"
+      android:textAlignment="center"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.009"
+      tools:layout_editor_absoluteX="16dp" />
+
+
+  <Button
+      android:id="@+id/vfeedback"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/edittext_linear_corners"
+      android:elevation="12dp"
+      android:padding="16dp"
+      android:text="View Feedback"
+      android:textAllCaps="false"
+      android:textColor="@color/colorPrimaryDark"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.536"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.738" />
+
+  <Button
+      android:id="@+id/DeleteCategory"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/edittext_linear_corners"
+      android:elevation="12dp"
+      android:padding="16dp"
+      android:text="Delete Category"
+      android:textAllCaps="false"
+      android:textColor="@color/colorPrimaryDark"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.536"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.23" />
+
+  <Button
+      android:id="@+id/DeleteFood"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/edittext_linear_corners"
+      android:elevation="12dp"
+      android:padding="16dp"
+      android:text="Delete Food"
+      android:textAllCaps="false"
+      android:textColor="@color/colorPrimaryDark"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.536"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.544" />
+
+  <Button
+      android:id="@+id/AddFood"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/edittext_linear_corners"
+      android:elevation="12dp"
+      android:padding="16dp"
+      android:text="Add Food"
+      android:textAllCaps="false"
+      android:textColor="@color/colorPrimaryDark"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.536"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.422" />
+
+  <Button
+      android:id="@+id/sign_out"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorPrimaryDark"
+      android:elevation="12dp"
+      android:padding="16dp"
+      android:text="Sign out"
+      android:textAllCaps="false"
+      android:textColor="@color/colorWhite"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

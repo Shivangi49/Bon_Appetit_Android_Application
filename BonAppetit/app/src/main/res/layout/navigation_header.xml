@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:padding="10dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:src="@drawable/bonappetit"
+        android:layout_width="100dp"
+        android:layout_height="70dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Welcome to Bon Appetit"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

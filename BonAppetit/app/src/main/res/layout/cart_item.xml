@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:layout_centerHorizontal="true"
+    app:cardCornerRadius="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/food_name"
+            android:text="Name of Food"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:background="#00DFBDC3"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/food_txtPrice"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/food_name"
+            android:text="Price: ₹"
+            android:textSize="17sp"
+            android:gravity="left"
+            android:layout_gravity="left"
+            android:background="#00DFBDC3"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/food_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/food_name"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/food_txtPrice"
+            android:background="#00DFBDC3"
+            android:gravity="center"
+            android:text="100"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/txt_total"
+            android:gravity="left"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:text="Total: ₹"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/food_price"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/total"
+            android:gravity="left"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:text="190 "
+            android:layout_toRightOf="@id/txt_total"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/food_price"
+            />
+        <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:id="@+id/elquantity"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:layout_below="@id/food_name"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

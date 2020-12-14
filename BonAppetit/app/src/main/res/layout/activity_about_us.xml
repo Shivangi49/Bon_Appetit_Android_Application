@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:elevation="10dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@id/toolbar"
+        android:padding="12dp"
+        android:background="@drawable/linear_corners"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="Bon Appétit is an food ordering application designed to avoid the hectic of conversing with the receptionist and order the food by just the tip of your fingers"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/toolbar"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:background="@drawable/edittext_linear_corners"
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:id="@+id/bottomnav"
+        app:menu="@menu/bottommenu"
+        app:itemIconTint="@color/colorWhite"
+        app:itemTextColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_height="56dp">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>
