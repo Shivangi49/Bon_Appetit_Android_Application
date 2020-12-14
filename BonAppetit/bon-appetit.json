@@ -1,0 +1,120 @@
+{
+  "Admins" : {
+    "sp49493" : {
+      "email" : "sp49493@gmail.com",
+      "id " : "sp4949",
+      "name" : "Akash",
+      "password" : 1234567
+    }
+  },
+  "Users" : {
+    "8NY4MxY2ylfx9D6siyOx7YmxkU32" : {
+      "address" : "New Panvel",
+      "contact" : "8888829014",
+      "email" : "1shubhamdas@gmail.com",
+      "feedback" : "tatti hai! mar ja",
+      "id" : "8NY4MxY2ylfx9D6siyOx7YmxkU32",
+      "name" : "Shubham Das"
+    },
+    "odZ5XA2KWvNMl5UaiBghHwwSmt32" : {
+      "address" : "panvel",
+      "contact" : "96321547854",
+      "email" : "sp49493@gmail.com",
+      "feedback" : "The app is good and I can easily order any food that I want",
+      "id" : "odZ5XA2KWvNMl5UaiBghHwwSmt32",
+      "name" : "Shivangi Pandey"
+    }
+  },
+  "cart" : {
+    "8NY4MxY2ylfx9D6siyOx7YmxkU32" : {
+      "02" : {
+        "food id" : "02",
+        "name" : "Mushroom Pizza",
+        "price" : "210",
+        "quantity" : "3"
+      }
+    },
+    "odZ5XA2KWvNMl5UaiBghHwwSmt32" : {
+      "01" : {
+        "foodid" : "01",
+        "name" : "Chilli Cheese Burger",
+        "price" : "120",
+        "quantity" : "3"
+      },
+      "02" : {
+        "foodid" : "02",
+        "name" : "Mushroom Pizza",
+        "price" : "210",
+        "quantity" : "5"
+      },
+      "04" : {
+        "foodid" : "04",
+        "name" : "Nutella Dark Chocolate Pastry",
+        "price" : "80",
+        "quantity" : "4"
+      }
+    }
+  },
+  "category" : {
+    "01" : {
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/pizza.jpg?alt=media&token=4baba4d7-d23d-4039-9ec5-57beb3633de3",
+      "name" : "Pizza"
+    },
+    "02" : {
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/burger.jpg?alt=media&token=d7912b1e-7233-41aa-84e4-b54d8d1d0985",
+      "name" : "Burgers"
+    },
+    "04" : {
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/beverages.jpg?alt=media&token=f3d528ce-7da1-4492-951a-ef1162db04bf",
+      "name" : "Beverages"
+    },
+    "05" : {
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/desserts.jpg?alt=media&token=0f883670-cb1d-440d-8613-409f06e3147a",
+      "name" : "Desserts"
+    }
+  },
+  "foods" : {
+    "01" : {
+      "category_id" : "02",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/Chilli%20Cheese%20Burger.jpg?alt=media&token=8a5f1063-3493-4584-8af4-7eb08aaf7210",
+      "name" : "Chilli Cheese Burger",
+      "price" : "120"
+    },
+    "02" : {
+      "category_id" : "01",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/Mushroom%20Pizza.jpg?alt=media&token=6ef216ab-2496-423d-a91f-df9bf342d85b",
+      "name" : "Mushroom Pizza",
+      "price" : "210"
+    },
+    "03" : {
+      "category_id" : "04",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/Cappuccino.jpg?alt=media&token=d0e10df6-e8d3-41d9-8eb9-f8cdd5e89c01",
+      "name" : "Cappuccino",
+      "price" : "150"
+    },
+    "04" : {
+      "category_id" : "05",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/Nutella%20Dark%20Chocolate%20Pastry.jpg?alt=media&token=418dfcdb-d12d-4a73-8722-17d9de88f325",
+      "name" : "Nutella Dark Chocolate Pastry",
+      "price" : "80"
+    },
+    "05" : {
+      "category_id" : "01",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/Image%2F1600430423322.jpg?alt=media&token=54bfb611-7ac7-481c-a8a3-141838531955",
+      "name" : "Chicken Smokey Joe",
+      "price" : "280"
+    },
+    "06" : {
+      "category_id" : "01",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/Image%2F1600430489796.jpg?alt=media&token=1581e77d-a5db-496b-b681-be539d3e2350",
+      "name" : "Paneer Tikka Pizza",
+      "price" : "220"
+    },
+    "08" : {
+      "category_id" : "01",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bon-appetit-72f48.appspot.com/o/Image%2F1600429337633.jpg?alt=media&token=76e7f106-0e75-457e-96f8-4503bc61121e",
+      "name" : "Double Cheese Margherita",
+      "price" : "200"
+    }
+  }
+}
